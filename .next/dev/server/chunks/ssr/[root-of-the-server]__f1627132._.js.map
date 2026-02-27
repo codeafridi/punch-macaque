@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Afridi/Downloads/a93135bc-3bbf-4d4b-8565-5f2241acafd1/app/page.tsx"],"sourcesContent":["import dynamic from 'next/dynamic'\n\nconst ExperimentFlow = dynamic(() => import('../components/ExperimentFlow'), {\n  ssr: false,\n})\n\nexport default function Home() {\n  return <ExperimentFlow />\n}\n"],"names":[],"mappings":";;;;;AAAA;;;;AAEA,MAAM,iBAAiB,IAAA,0KAAO,EAAC;;;;;;IAC7B,KAAK;;AAGQ,SAAS;IACtB,qBAAO,8OAAC;;;;;AACV"}}]
+}
