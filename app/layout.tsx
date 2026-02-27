@@ -7,7 +7,6 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 export const metadata: Metadata = {
   title: 'The Viral Emotion Lab',
   description: 'An interactive experiment exploring how framing turns ordinary stories into viral emotional events.',
-  generator: 'v0.app',
 }
 
 export default function RootLayout({
