@@ -32,6 +32,14 @@ export default function RootLayout({
             </div>
           </footer>
         </div>
+        <a
+          href="https://github.com/codeafridi/punch-macaque"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="fixed bottom-4 right-4 z-50 rounded-full border border-[#30363D] bg-[#161B22] px-4 py-2 text-xs text-[#8B949E] hover:text-[#58A6FF] hover:border-[#58A6FF]/50 transition-colors"
+        >
+          GitHub: punch-macaque
+        </a>
       </body>
     </html>
   )
